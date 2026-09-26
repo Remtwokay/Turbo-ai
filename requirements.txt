@@ -1,3 +1,8 @@
-streamlit
+streamlit==1.35.0
 pillow
+gtts
+moviepy==1.0.3
 numpy
+imageio==2.33.0
+imageio-ffmpeg
+requests
