@@ -74,7 +74,7 @@ with col1:
 
             st.markdown('<div class="card">', unsafe_allow_html=True)
             st.success(f"✅ REAL RENDER COMPLETE - Topic: {topic}")
-            st.image(img, caption=f"7. Thumbnail + Final Frame - {topic}", use_column_width=True)
+            st.image(img, caption=f"7. Thumbnail + Final Frame - {topic}", use_container_width=True)
             
             st.subheader(f"Generated Script ({length}s) - {voice}")
             st.code(script)
